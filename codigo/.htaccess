@@ -1,0 +1,13 @@
+
+<IfModule mod_rewrite.c>
+
+    # Engine
+    RewriteEngine on
+    RewriteBase /
+    Options -Indexes
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    # Conditions/Rules
+    RewriteRule . index.php 
+
+</IfModule>

@@ -1,0 +1,25 @@
+{
+    "name": "majo/expansionwm",
+    "description": "La web oficial de expansionwm",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Majo\\Vxvinvestment\\": "src/",
+            "FlexRouter\\": "src/",
+            "bin\\" : "bin/",
+            "component\\" : "bin/component/",
+            "config\\" : "bin/config/",
+            "modelo\\" : "bin/modelo/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MariaDiaz04",
+            "email": "mjcazorla1997@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}

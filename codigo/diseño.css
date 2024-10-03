@@ -1,0 +1,28 @@
+/* Estilos CSS para el documento HTML */
+
+body {
+    font-size: 14px; /* Tamaño de fuente del cuerpo */
+}
+
+.propietarios {
+    margin: 20px auto; /* Margen superior e inferior automático, centrando el contenido */
+    max-width: 800px; /* Ancho máximo del contenedor */
+}
+
+h1 {
+    font-size: 24px; /* Tamaño de fuente del encabezado h1 */
+}
+
+table {
+    width: 100%; /* Ancho completo de la tabla */
+    font-size: 12px; /* Tamaño de fuente de la tabla */
+}
+
+th, td {
+    padding: 8px; /* Espaciado interno de celdas */
+    text-align: center; /* Alineación de texto centrada */
+}
+
+a {
+    font-size: 12px; /* Tamaño de fuente de los enlaces */
+}
